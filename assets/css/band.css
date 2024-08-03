@@ -1,0 +1,74 @@
+* 
+{
+    padding : 0 ; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+html 
+{
+    font-family: "Lato" , Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* 
+.Position , color , size , appearance , ...  */
+#Main 
+{
+
+}
+#Header 
+{ 
+     /*width : 284.667px*/
+     height : 36px ; 
+     background-color: black;
+}
+#BarTopics , .MoreTopics 
+{
+    list-style-type: none ;
+}
+#BarTopics > li 
+{
+     display: inline-block ;
+}
+#BarTopics > li > a { color : #fff ;  }
+#BarTopics li{
+    position : relative ; 
+}
+#BarTopics li a
+{
+    line-height: 36px ;
+    padding : 0 24px ;
+    text-decoration: none ;  
+    display: block ;
+}
+#BarTopics .MoreTopics li:hover a,
+#BarTopics > li:hover > a{
+    color : #000 ; background-color : #ccc;
+}
+#BarTopics .MoreTopics 
+{
+    /*display : inline-block ;*/ 
+    position : absolute ;
+    top : 100% ; 
+    min-width: 160px ;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.3);
+}
+#BarTopics .MoreTopics a 
+{
+    color : #000 ; 
+}
+#Slider 
+{
+     min-height: 500px;
+     background-color: #333;
+}
+#Content 
+{
+
+}
+#Footer 
+{
+
+}
